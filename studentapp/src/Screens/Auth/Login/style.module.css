@@ -1,0 +1,82 @@
+.EnterScreen {
+    background-image: url('../../../Assets/Auth/loginBgGreen.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.secondbackground {
+    background-image: url('../../../Assets/Auth/loginBg1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px  rgba(0, 0, 0, 0.5);
+}
+
+.loginForm {
+    background-color: hsla(0, 0%, 100%, .8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.loginForm h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+
+.AdminIcon img {
+    width: 10%;
+
+}
+
+.loginForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.formGroup input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+
+}
+
+.formGroupPassword input{
+    width: 100%;
+    border: none;
+    padding: 10px;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    background-color: coral;
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.formGroupPassword i{
+    position:absolute;
+    top:59%;
+    left:85%;
+    font-size:13px;
+    align-items:center;
+}

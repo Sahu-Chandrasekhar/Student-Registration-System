@@ -1,0 +1,13 @@
+//auth
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAILURE = 'LOGIN_FAILURE';
+
+
+//student
+export const ADD_STUDENT_SUCCESS = 'ADD_STUDENT_SUCCESS';
+export const ADD_STUDENT_FAILURE = 'ADD_STUDENT_FAILURE';
+
+
+//student Update
+export const STUDENT_UPDATE_SUCCESS = 'STUDENT_UPDATE_SUCCESS';
+export const STUDENT_UPDATE_FAILURE = 'STUDENT_UPDATE_FAILURE';

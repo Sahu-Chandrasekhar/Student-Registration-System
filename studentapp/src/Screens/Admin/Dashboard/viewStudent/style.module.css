@@ -1,0 +1,121 @@
+.tableContainer p {
+    font-family: Roboto, sans-serif !important;
+    font-size: .8vw;
+    font-weight: 500 !important;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+
+.tableNav {
+    background-image: linear-gradient(0deg, #133b65, #ff9018);
+    color: #fff;
+    display: flex;
+    font-family: Roboto, sans-serif !important;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.navImg img {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.navContent b {
+    font-family: Roboto, sans-serif !important;
+    font-size: 1.4vw;
+}
+
+.navContent p {
+    font-family: Roboto, sans-serif !important;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.navContainerTwo {
+    box-sizing: border-box;
+}
+
+.navContainerTwo p {
+    font-family: Roboto, sans-serif !important;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.navFirstContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.label {
+    color: #8a9d9d;
+    font-weight: 500;
+}
+
+.firstColumn .fcPara {
+    color: black;
+    font-size: medium;
+}
+
+.firstColumn {
+    padding-bottom: 10px !important;
+    width: 90%;
+}
+
+.fstColumnContainer {
+    width: 20%;
+}
+
+.seColumnContainer {
+    width: 20%;
+}
+
+.thirdColumnContainer {
+    width: 20%;
+}
+
+.fourthColumn {
+    width: 20%;
+}
+
+.fifthColumn {
+    width: 20%;
+}
+
+.table {
+    box-sizing: border-box;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+/* Add this CSS code for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .table {
+        flex-direction: column;
+    }
+
+    .fstColumnContainer,
+    .seColumnContainer,
+    .thirdColumnContainer,
+    .fourthColumn,
+    .fifthColumn {
+        width: 100%;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+
+    .firstColumn .fcPara {
+        font-size: 14px;
+    }
+}
